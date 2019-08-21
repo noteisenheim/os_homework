@@ -1,0 +1,35 @@
+  100  mkdir ~/week1
+  101  cd ~/week1
+  102  ls -ld *gcc* | sort -r
+  103  ls | sort -r
+  104  ls |sort -r
+  105  ls *a*
+  106  ls *gcc* | sort -r
+  107  ls |sort -r| *gcc*
+  108  ls -ld *gcc*
+  109  ls *gcc*
+  110  ls *b*
+  111  ls *a* |sort -r
+  112  ls *gc* | sort -r
+  113  sh ex3.sh
+  114  gedit main.c
+  115  gcc main.c -o ex4
+  116  gedit main.c
+  117  gcc main.c -o ex4
+  118  ./ex4
+  119  ls *ipynb*
+  120  ls -ld *ipynb*
+  121  ls *py*
+  122  ls -lR *py*
+  123  ls *v*
+  124  ls *a*
+  125  ls -R
+  126  ls -R *py*
+  127  ls *gcc* |sort -r > ex1.txt
+  128  cd /usr/bin
+  129  ls *gcc* |sort -r > ex1.txt
+  130  ls *gcc* |sort -r >~/ex1.txt
+  131  history
+  132  man history
+  133  history 30 > ex2.txt
+  134  history 35 > ~/ex2.txt
