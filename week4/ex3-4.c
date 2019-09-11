@@ -13,6 +13,11 @@ char *read_line()
 	int ind = 0;
 	while (1)
 	{
+		if (ind >= MAX_SIZE)
+		{
+			printf("You are too wordy\n");
+			exit(0);
+		}
 		c = getchar();
 		if (c == '\n')
 		{
