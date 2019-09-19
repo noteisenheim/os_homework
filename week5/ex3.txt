@@ -1,0 +1,9 @@
+buffer is 4
+full is 0
+empty is 0
+buffer is 0
+full is 1
+empty is 1
+buffer is 0
+full is 1
+empty is 1
