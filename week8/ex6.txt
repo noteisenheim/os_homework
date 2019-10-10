@@ -1,0 +1,6 @@
+16-bit virtual address space
+8KB - size of page
+the number of possible addresses: 2^16
+the number of pages: 2^16/2^13
+the number of entries in a single-level linear page table is the same as the number of pages in virtual memory, as it has one entry per page
+thus, the number of entries is 2^3 = 8 entries
