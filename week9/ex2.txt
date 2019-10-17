@@ -1,0 +1,4 @@
+If we have N page frames, then the hit/miss ratio is more when each page reference beginning from N+1-th reference is a reference to the one of the pages that is stored in the memory.
+For example, if we have 5 page frames, the reference sequence 1, 2, 3, 4, 5, 3, 5, 4, 2, 1, 3, 2, 4, 1, 5 will result in the greatest hit/miss ratio
+Correspondingly, for N page frames the hit/miss ratio gets less as we more reference pages that are not in the memory.
+For example, for 5 page frames the reference sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 17, 15, 42, 23, 70, 58 will result in the smallest hit/miss ratio, as each reference we have a miss.
