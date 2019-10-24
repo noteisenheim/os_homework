@@ -1,0 +1,10 @@
+removed execution permission
+644 _ex3.txt
+added all permissions to the owner
+744 _ex3.txt
+made group permissions the same as owner's
+774 _ex3.txt
+
+660: owner - rw, group - rw, other - no permissions
+775: owner - rwx, group - rwx, other - rx
+777: owner, group, other - rwx

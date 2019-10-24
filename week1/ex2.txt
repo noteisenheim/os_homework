@@ -33,3 +33,5 @@
   132  man history
   133  history 30 > ex2.txt
   134  history 35 > ~/ex2.txt
+/home/noteisenheim/os_homework/week10/_ex2.txt
+/home/noteisenheim/os_homework/week1/file.txt

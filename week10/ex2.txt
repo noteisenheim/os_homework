@@ -1,0 +1,4 @@
+before removing links:
+./week10/_ex2.txt
+./week1/file.txt
+after removing empty output
