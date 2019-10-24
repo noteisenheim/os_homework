@@ -8,14 +8,15 @@ int main()
 	int inodes[10];
 	char *names[10];
 	int count = 0;
-	DIR *dir = opendir("./temp");
+	DIR *dir = opendir("./temp");	//opening directory
 	if (dir == NULL)
 	{
 		printf("such directory doesn't exist\n");
 	}
-	else
+	else	//if directory exists
 	{
 		struct dirent *dp;
+		//reading all files and their inodes, saving them
 		while ((dp = readdir(dir)) != NULL)
 		{
 			inodes[count] = dp->d_ino;
@@ -24,6 +25,7 @@ int main()
 			count++;
 		}
 	}
+	//searching for the repeating inodes and printing if they exist
 	for (int i = 0; i < count; i++)
 	{
 		int found = 0;
